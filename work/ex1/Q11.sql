@@ -1,0 +1,1 @@
+SELECT country_id , COUNT(DISTINCT city) FROM city GROUP BY country_id HAVING COUNT(DISTINCT city) >= 20;
